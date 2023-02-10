@@ -10,7 +10,7 @@ export const onRequest: PagesFunction<Env, any, ContextData> = async ({ request,
 }
 
 const headers = {
-	'content-type': 'application/json; charset=utf-8',
+	'content-type': 'application/activity+json; charset=utf-8',
 }
 
 // eslint-disable-next-line @typescript-eslint/no-unused-vars -- TODO: use userKEK

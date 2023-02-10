@@ -5,7 +5,7 @@ import { actorURL } from 'wildebeest/backend/src/activitypub/actors'
 import { getFollowingId } from 'wildebeest/backend/src/mastodon/follow'
 
 const headers = {
-	'content-type': 'application/json; charset=utf-8',
+	'content-type': 'application/activity+json; charset=utf-8',
 }
 
 export const onRequest: PagesFunction<Env, any> = async ({ params, request, env }) => {

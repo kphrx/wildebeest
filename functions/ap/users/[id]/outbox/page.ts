@@ -16,7 +16,7 @@ export const onRequest: PagesFunction<Env, any, ContextData> = async ({ request,
 
 const headers = {
 	...cors(),
-	'content-type': 'application/json; charset=utf-8',
+	'content-type': 'application/activity+json; charset=utf-8',
 }
 
 const DEFAULT_LIMIT = 20
